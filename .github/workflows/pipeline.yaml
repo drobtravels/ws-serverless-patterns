@@ -29,6 +29,7 @@ env:
   # prod "sam package" and "sam deploy" commands.
   # PROD_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
   PROD_REGION: us-west-2
+  AWS_DEFAULT_REGION: us-west-2
 
 permissions:
   id-token: write
